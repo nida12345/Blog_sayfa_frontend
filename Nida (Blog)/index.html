@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/eb96f16093.js" crossorigin="anonymous"></script>
+
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Montserrat:wght@200&family=Pacifico&display=swap" rel="stylesheet">
+
+<!-- Data Aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Bootstrap css  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="style.css">
+<title>Nida Çıkaray</title>
+</head>
+<body>
+    
+        <div class="header">
+          <!-- gizli bir check box hamburger menüye eklendi -->
+          <input type="checkbox" id="res-menu">
+          <label for="res-menu"><img src="hamburger-menu-icon.png"></label>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#hakkimda">Hakkımda</a></li>
+                    <li><a href="#egitim">Eğitim</a></li>
+                    <li><a href="#yetkinlikler">Yetkinlikler</a></li>
+                    <li><a href="#deneyimler">Deneyimler</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                    <li class="ikonlar">
+                        <i class="fab fa-instagram fa-lg" onclick="window.open('https:https://www.instagram.com/nidacikarayy/')"></i>
+                        <i class="fab fa-linkedin fa-lg" onclick="window.open('https:https://www.linkedin.com/in/nida-%C3%A7%C4%B1karay-b2b9b51ba/')"></i>
+                        <i class="fab fa-twitter fa-lg" onclick="window.open('https://www.twitter.com/Nidacikarayy/')"></i>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="header-baslik">
+                <h1 class="display-1">Nida Çıkaray</h1>
+            </div>
+            <div class="header-yazi">
+                <p class="animate">Bilgisayar Mühendisi</p>
+            </div>
+        </div>
+
+
+        <div class="my-container">
+
+          <div class="heroDiv">
+            <div class="hero-image">
+              <div class="hero-text">
+                <h1 style="font-size:50px; text-shadow: 2px 2px 5px;">Kişisel Web Siteme Hoşgeldiniz</h1>
+              </div>
+            </div>
+          </div>
+
+          
+          
+        <div class="content" id="hakkimda" style="background-color: #F9E4C8; margin-top: 0%;">
+            <div class="hakkimda-resim" data-aos="zoom-in">
+                <img src="h2.jpeg" alt="bilgisayarmuhendisi">
+            </div>
+
+            <div class="column-75">
+                <h2 style="color: #965D62; text-shadow: 2px 2px 5px;">Hakkımda</h2>
+                <br>
+                <p style="color: #965D62; text-align:justify;">Merhaba ben Nida. 27.03.1998 Elazığ Doğumluyum. Elazığ'da yaşamaktayım. Eğitim hayatımdan kısaca 
+                  bahsedecek olursam ilk ve ortaokulu Karakoçan Cengiz Topel ilk Öğretim okulunda okudum. Liseyi Karakoçan Anadolu lisesinde tamamladıktan
+                   sonra Fırat Üniversitesi Bilgisayar Mühendisliğini kazandım. Bilgisayar Mühendisliğinden  Eylül 2021 yılında 3.15 ortalama ile mezun oldum.
+                    Bu benim ilk kişisel blog sayfa örneğim. Yazılımı ve kodlamayı seviyorum ! Üniversitenin ilk yıllarında ilk başlarda algoritma 
+                   derslerini sevemesem de bir süre sonra mantığını oturttuktan sonra sevmeye başladım. Okulda Java dilinde eğitim gördüğümden dolayı
+                    Java OOP bilgim var ve orta seviye de Python bilgim var. Android studio ve unity ile de okulda yapmış olduğum çalışmalarım mevcut.
+                    Aynı zamanda stajımda da yaptığım veritabanı projeleri ve derin öğrenme bitirme projem var. Okulda bir dönem internet Programlama
+                    dersi görsem de benim için yeterli olmadığından Web tasarımı alanında gelişmek ve için şuan aktif olarak Front-end eğitimi alıyorum
+                     ve bu alanda tam anlamıyla uzmanlaştıktan sonra Fullstack olmayı hedefliyorum. Aynı zamanda yabancı dil eğitimi almaktayım.</p>
+            </div>
+        </div>
+
+
+
+        <div class="content" id="egitim">
+            <h2 class="basliklar">Eğitim</h2>
+          <!-- bootstrap card, aos ekledim -->
+            <div class="column-25" style="width: 33%;">
+                <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" 
+                data-aos-duration="2000" style="width: 17rem; background-color: #F9E4C8;">
+                    <div class="card-body">
+                      <h5 class="card-title">İlk Öğretim</h5>
+                      <p class="card-text">Cengiz Topel İlk Öğretim Okulu</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="column-25" style="width: 33%; ">
+                <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" 
+                data-aos-duration="2000" style="width: 17rem; background-color: #F9E4C8;">
+                    <div class="card-body">
+                      <h5 class="card-title">Lise</h5>
+                      <p class="card-text">Elazığ - Karakoçan Anadolu Lisesi (2012-2016)</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="column-25" style="width: 33%;">
+                <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" 
+                data-aos-duration="2000" style="width: 17rem; background-color: #F9E4C8;">
+                    <div class="card-body">
+                      <h5 class="card-title">Üniversite</h5>
+                      <p class="card-text">Fırat Üniversitesi Bilgisayar Mühendisliği (2017-2021) (4 / 3.15)</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="content" id="yetkinlikler">
+          <h2 class="basliklar">Yetkinlikler</h2>
+            <div class="column-75">
+                
+                <!-- progress barları bootstrap, ve sürelerini aos ile farklı şekilde verdik o görüntü için -->
+
+                <i>HTML</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="500">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: #965D62;"></div>
+                  </div>
+
+                  <i>CSS</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: #965D62;"></div>
+                  </div>
+
+                <i>Java OOP</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="1100">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%; background-color: #965D62;"></div>
+                  </div>
+
+                  <i>SQL</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="1400">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%; background-color: #965D62;"></div>
+                  </div>
+
+                  <i>Python</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="1700">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%; background-color: #965D62;"></div>
+                  </div>
+
+
+                  <i>Assembly Programlama</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%; background-color: #965D62;"></div>
+                  </div>
+
+                  <i>Android Studio</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="2300">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%; background-color: #965D62;"></div>
+                  </div>
+
+                  <i>Derin Öğrenme/Makina Öğrenmesi</i>
+                <div class="progress" data-aos="zoom-in" data-aos-duration="2600">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%; background-color: #965D62;"></div>
+                  </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="content" id="deneyimler">
+          <h2 class="basliklar">Deneyimler</h2>
+
+         
+          <div class="column-75" style="margin: 20px 0;">
+           
+
+            <!-- Bootstrap Accordion -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <!-- item1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Yazılım Stajı
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <h5>Netix Bilgi Teknolojileri</h5>
+                    <br>
+                    <p>Android Studio Mobil Haber Uygulaması</p>
+                  </div>
+                </div>
+              </div>
+              <!-- item2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                   Yazılım Stajı
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <h5>İ2İ Systems</h5>
+                    <br>
+                    <p>Java PostgreSQL ile Faturanlandırma </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="content">
+          <h2 class="basliklar">Projeler</h2>
+          <div class="column-100">
+
+            <div class="proje1" data-aos="fade-right" data-aos-duration="500">
+              <img class="pResim" src="5.jpg" alt="">
+                <p class="yazi">Proje 1
+                  <br> Lorem ipsum dolor sit amet.
+                </p>   
+            </div>
+
+            <div class="proje2" data-aos="fade-right" data-aos-duration="900">
+              <img class="pResim" src="6.jpg" alt="">
+              <p class="yazi">Proje 2
+                <br> Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="proje3" data-aos="fade-right" data-aos-duration="1300">
+              <img class="pResim" src="3.jpg" alt="">
+              <p class="yazi">Proje 3
+                <br> Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="proje4" data-aos="fade-right" data-aos-duration="1700">
+              <img class="pResim" src="4.jpg" alt="">
+              <p class="yazi">Proje 4
+                <br> Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="content" id="iletisim" style="background-color: #F9E4C8;">
+          <h2 class="basliklar">İletişim</h2>
+
+          <div class="column-50">     
+            <form action="">
+              <label for="">Adınız: </label> &nbsp; &nbsp; &nbsp;
+              <input type="text">
+              <br/> <br/>
+              <label for="">Soyadınız: </label>
+              <input type="text">
+              <br/> <br/>
+              <label for="">E-mail: </label> &nbsp; &nbsp; &nbsp;
+              <input type="email">
+              <br/> <br/>
+              <label for="">Mesajınız: </label>
+              <textarea name="" id="" cols="30" rows="5"></textarea>
+              <br/> <br/>
+              <button>GÖNDER</button>
+            </form>
+          </div>
+
+          <div class="column-50">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12410.905259957104!2d40.03135022397308!3d38.953080359873944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40716649e0cc0bb3%3A0x1c752b6a312949c0!2zS2FyYWtvw6dhbiwgRWxhesSxxJ8!5e0!3m2!1str!2str!4v1641758712984!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+
+        <div class="content">
+          <div class="column-50">
+            <h2 class="basliklar">Burç Hesaplayıcı</h2>
+            <label for="">Doğduğunuz Ay: </label>
+            <select name="dogumAyi" id="dogumAyi">
+              <option value="Ocak">Ocak</option>
+              <option value="Şubat">Şubat</option>
+              <option value="Mart">Mart</option>
+              <option value="Nisan">Nisan</option>
+              <option value="Mayıs">Mayıs</option>
+              <option value="Haziran">Haziran</option>
+              <option value="Temmuz">Temmuz</option>
+              <option value="Agustos">Ağustos</option>
+              <option value="Eylül">Eylül</option>
+              <option value="Ekim">Ekim</option>
+              <option value="Kasım">Kasım</option>
+              <option value="Aralık">Aralık</option>
+            </select>
+
+            <br> <br>
+            <label for="">Doğum günü: </label>
+            <input type="number" id="dogumGunu" min="1" max="31">
+            <br> <br>
+
+            <button id="hesapla">Hesapla</button>
+            <br> <br>
+          </div>
+
+
+
+            <div class="column-35" style="background-color: #F9E4C8; margin-left: 6%; margin-top: 11%;">
+              <div class="burc-card">
+                <img src="burclar2.jpg" alt="" id="burcFoto">
+              <p id="burc" style=" text-align:justify; padding-top: 4%;"></p>
+              </div>
+              
+            </div>
+
+             
+        </div>
+
+        <p style="text-align: center; margin-bottom: 20px;">Nida Çıkaray @2022 </p>
+
+    </div>
+
+
+    <script>
+      document.getElementById("hesapla").onclick=function(){
+        var ay=document.getElementById("dogumAyi").value;
+        console.log(ay);
+        var gun=document.getElementById("dogumGunu").value;
+        
+
+        if(gun==""){
+        document.getElementById("burc").innerHTML="Lütfen bir gün değeri giriniz.";
+        
+          }
+
+        else if((ay=="Şubat" && 28>=gun>=19 )||(ay=="Mart" && gun<=20))
+          {
+            document.getElementById("burc").innerHTML="Burcunuz: Balık ; Balık enerjisi aktif hale geldiğinde derinlere dalmaya hazır olun; Balık enerjisi şefkatimizi uyandırır, kalplerimizi acı çeken insanlara açmamızı sağlar. Balık burcu gezegen döngüsü sırasında bu enerjinin farkında olsak da olmasak da etrafımızdaki insanlarla sezgisel olarak bağlantı kurabiliriz. ";
+            document.getElementById("burcFoto").src="balik.png";
+          
+          }
+      else if((ay=="Mart" && gun>=21)||(ay=="Nisan" && gun<=20))
+         {
+          document.getElementById("burc").innerHTML="Burcunuz: Koç ; Zodyak’ın ilk burcu olan Koç burcunun varlığı her zaman enerjik ve çalkantılı bir başlangıca işaret eder. Koç burçları çalışma ortamlarında da arkadaş ortamlarında da her zaman hareket, hız ve rekabet peşindedir; her şeyde birinci olmaya çalışırlar. Yönetici gezegenleri Mars’ın ateş elementine ait olması nedeniyle Koç burcu en aktif burçlardan biridir. Zaman zaman düşünmeden de olsa harekete geçmek onların doğasındadır.";
+          document.getElementById("burcFoto").src="koc.png";
+
+          
+         }
+      else if((ay=="Nisan" && 30>=gun>=21)||(ay=="Mayıs" && gun<=21))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Boğa ; Boğa burcu toprak elementi altında gruplanan üç burçtan biridir (diğerleri Başak ve Oğlak’tır). Zodyak döngüsündeki ilk toprak burcu olduğu için binayı oluşturan temel gibidir. Çoğu Boğa insanı dengeleyicidir, kendileri ve başkaları için güvenliği sağlamaya çalışırlar. Meseleleri ayakları yere basan, pratik ve gerçekçi bir bakış açısıyla görmeye meyillidirler. ";
+          document.getElementById("burcFoto").src="boga.png";
+
+        }
+ 
+      else if((ay=="Mayıs" && gun>=22)||(ay=="Haziran" && gun<=21))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: İkizler ; Enerjisi hızlı ve telaşlıdır. İkizler burcu iletişimi yönetir; esprili kelime oyunlarına, dinamik diyaloglara ilham verir. İkizler burcu geçişleri beyin fırtınaları ve sosyalleşme açısından harika bir dönemdir. Ayrıca bu burç, fikirlerin buluşmasından yanadır. İkizler burcu gezegen geçişi sırasında konuşma yetilerimiz gelişir.";
+          document.getElementById("burcFoto").src="ikizler.png";
+
+        }
+ 
+      else if((ay=="Haziran" && 30>=gun>=22)||(ay=="Temmuz" && gun<=22))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Yengeç; Yengeç burcu, tıpkı Akrep ve Balık gibi su elementine bağlıdır. Zodyak’ın ilk su burcu olduğu için, duygu denizinin ve yaratıcı suların akmasını sağlayan bir nehir gibidir. Yengeç burcu insanları etrafındaki herkesin mutlu olmasını ister. Yengeç gezegen döngüsü etkisi altındayken ailemizle ve sevdiklerimizle vakit geçirme ihtiyacı hissederiz.";
+          document.getElementById("burcFoto").src="yengec.png";
+
+        
+        }
+      else if((ay=="Temmuz" && gun>=23)||(ay=="Agustos" && gun<=23))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Aslan ; Aslan burcu ateş elementiyle yönetilen üç burçtan biridir (diğer ikisi Koç ve Yay’dır). Zodyak’ın ikinci ateş burcu Aslan olduğu için, Aslan burcunun sıcaklığı, bir kıvılcımı herkesin hissettiği büyük bir yangına dönüştürür. Pek çok Aslan burcu doğuştan sanatçı ve liderdir. ";
+          document.getElementById("burcFoto").src="aslan.png";
+
+          
+        }
+      else if((ay=="Agustos" && gun>=24)||(ay=="Eylül"&& gun<=22))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Başak; Her şeyin bir sonu olduğunu bilirler ve görevleri herkesi mevsim değişimine uyum sağlamalarına yardımcı olmaktır. Diğer burçlardan daha bilgedirler. Diğer burçlara göre değişime daha kolay ayak uydurabilirler; pek çok duruma uyum sağlamak için bukalemun gibi renk değiştirirler. Ayrıca Zodyak’ın düzeltmenidirler.";
+          document.getElementById("burcFoto").src="basak.png";
+
+         
+         }
+      else if((ay=="Eylül" && 30>=gun>=23)||(ay=="Ekim" && gun<=23))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Terazi ; Terazi burcu ikinci hava burcu olduğu için, İkizler’in başlattığı iletişim rüzgarlarını nezaket, görgü ve toplumsal bağ rüzgarlarına dönüştürür. Ama Terazi burcunun rüzgarları fırtına gücünde değildir; değişim rüzgarlarını o kadar nazik ve yumuşak bir şekilde getirir ki başka bir noktaya ulaştığınızı güçbela anlarsınız. ";
+          document.getElementById("burcFoto").src="terazi.png";
+
+        }
+ 
+      else if((ay=="Ekim" && gun>=24)||(ay=="Kasım" && gun<=22))
+       {
+        document.getElementById("burc").innerHTML="Burcunuz: Akrep ; Akrep Zodyak’ın ikinci su burcudur. Görevi kendisinin ve başkalarının duygularını güçlendirmek ve kalıcı hale getirmektir. Diğer su grubu burçları gibi akrep de duyguları deneyimlemek ve ifade etmek için yaşar ancak duygulara çok önem verse de dışarıdan belli etmemesi ile diğer su gruplarından farklıdır. ";
+        document.getElementById("burcFoto").src="akrep.png";
+
+         
+       }
+ 
+      else if((ay=="Kasım" && 30>=gun>=23)||(ay=="Aralık" && gun<=21))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Yay ; Zodyak’ın en ilham verici ve iyimser burcu olan Yay burcu bizi meselelerin üstesinden gelmeye ve sınırsız olasılıkların peşinden gitmeye zorlar. Yay burcu gezegen geçişi sırasında seyahat etmeye, öğrenmeye, kültürler arası bağlantı kurup ufkumuzu genişletmeye istekli olabiliriz. ";
+          document.getElementById("burcFoto").src="yay.png";
+
+        }
+ 
+       else if((ay=="Aralık" && gun>=22)||(ay=="Ocak" && gun<=20))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Oğlak ; Oğlaklar Zodyak’ın usta stratejistleridir, her zaman bir beş-on yıllık planları vardır. Oğlak burcu gezegen döngüsünün etkisi altındayken en büyük hedeflerimizi gerçekleştirmeye ve hayatımızda uzun süreli yapılar inşa etmeye istekli hale geliriz.";
+          document.getElementById("burcFoto").src="oglak.png";
+
+        }
+        else if((ay=="Ocak" && gun>=21)||(ay=="Şubat" && gun<=18))
+        {
+          document.getElementById("burc").innerHTML="Burcunuz: Kova ; Zodyak’ta hava grubuna ait üçüncü burç olan Kova burcu tıpkı diğer hava grubu burçları İkizler ve Terazi gibi oldukça zihinseldirler. Eğer zihinsel uyarım yoksa sıkılırlar ve motivasyonları düşer. Kova burcu üçüncü hava burcu olduğu için İkizler’in neşe rüzgarları ile Terazi’nin sevgi kelebeği havası herkes içindir";
+          document.getElementById("burcFoto").src="kova.png";
+
+        }
+        else{
+          document.getElementById("burc").innerHTML="Geçersiz bir tarih girdiniz.";
+          document.getElementById("burcFoto").src="burclar2.jpg";
+        }
+        console.log(gun);
+        }
+    </script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+   <script>
+        AOS.init();
+
+        
+      </script>
+</body>
+</html>
